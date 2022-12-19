@@ -34,4 +34,9 @@
     foaf:name "Petar Partaloski" ;
     foaf:mbox_sha1sum "ad9a09592cf78b49d73ccbb280d6a1970724884a" ;
     rdfs:seeAlso <https://raw.githubusercontent.com/partaloski/foaf/master/foaf.ttl>
+  ], [
+    a foaf:Person ;
+    foaf:name "Jana Naumoska" ;
+    foaf:mbox_sha1sum "5f46316dbc7335ad75e912282f717a2f24852b1d" ;
+    rdfs:seeAlso <https://raw.githubusercontent.com/naumoskajana/VBS/main/foaf.ttl>
   ] .
