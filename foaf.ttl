@@ -24,4 +24,14 @@
     foaf:name "Mato Nikolov" ;
     foaf:mbox_sha1sum "11a498a22b687837b5686f52c6b72f3801ffb229" ;
     rdfs:seeAlso <https://raw.githubusercontent.com/Mato-77/Foaf/master/foaf.ttl>
+  ], [
+    a foaf:Person ;
+    foaf:name "Gjorgi Ivanov" ;
+    foaf:mbox_sha1sum "0ca0d3c4e14e984ed303e9161827cc19350e4bec" ;
+    rdfs:seeAlso <https://www.dropbox.com/s/pre903l6oxxjrn0/foaf.ttl?dl=1>
+  ], [
+    a foaf:Person ;
+    foaf:name "Petar Partaloski" ;
+    foaf:mbox_sha1sum "ad9a09592cf78b49d73ccbb280d6a1970724884a" ;
+    rdfs:seeAlso <https://raw.githubusercontent.com/partaloski/foaf/master/foaf.ttl>
   ] .
