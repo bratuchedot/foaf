@@ -1,0 +1,41 @@
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+@base <https://raw.githubusercontent.com/bratuchedot/foaf/master/foaf.ttl> .
+
+<#me>
+  a foaf:Person ;
+  foaf:account <https://www.linkedin.com/in/emilijan-koteski> ;
+  foaf:account <https://github.com/bratuchedot> ;
+  foaf:name "Emilijan Koteski" ;
+  foaf:title "Mr" ;
+  foaf:gender "Male" ;
+  foaf:givenname "Emilijan" ;
+  foaf:family_name "Koteski" ;
+  foaf:mbox_sha1sum "340295c3802ab175cbd1e09325d4c1d667b464d4" ;
+  foaf:depiction <https://avatars.githubusercontent.com/u/66753915?v=4?s=400> ;
+  foaf:workplaceHomepage <https://inteligenta.io> ;
+  foaf:workInfoHomepage <https://dbpedia.org/page/Software_development> ;
+  foaf:schoolHomepage <https://www.finki.ukim.mk> ;
+  foaf:member <http://fss.finki.ukim.mk> ;
+  foaf:knows [
+    a foaf:Person ;
+    foaf:name "Mato Nikolov" ;
+    foaf:mbox_sha1sum "11a498a22b687837b5686f52c6b72f3801ffb229" ;
+    rdfs:seeAlso <https://raw.githubusercontent.com/Mato-77/Foaf/master/foaf.ttl>
+  ], [
+    a foaf:Person ;
+    foaf:name "Gjorgi Ivanov" ;
+    foaf:mbox_sha1sum "0ca0d3c4e14e984ed303e9161827cc19350e4bec" ;
+    rdfs:seeAlso <https://www.dropbox.com/s/pre903l6oxxjrn0/foaf.ttl?dl=1>
+  ], [
+    a foaf:Person ;
+    foaf:name "Petar Partaloski" ;
+    foaf:mbox_sha1sum "ad9a09592cf78b49d73ccbb280d6a1970724884a" ;
+    rdfs:seeAlso <https://raw.githubusercontent.com/partaloski/foaf/master/foaf.ttl>
+  ], [
+    a foaf:Person ;
+    foaf:name "Jana Naumoska" ;
+    foaf:mbox_sha1sum "5f46316dbc7335ad75e912282f717a2f24852b1d" ;
+    rdfs:seeAlso <https://raw.githubusercontent.com/naumoskajana/VBS/main/foaf.ttl>
+  ] .
